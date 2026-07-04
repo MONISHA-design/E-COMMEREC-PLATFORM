@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'http://localhost:3000/api', // Points straight to your local Node.js backend port
+    baseURL: 'https://e-commerce-jvxj.onrender.com', // Points straight to your local Node.js backend port
 });
 
 // This automatically attaches your JWT token to your requests if the admin is logged in
